@@ -43,6 +43,11 @@ function upload() {
     let seconds = Math.floor(elapsedTime / 1000 % 60);
     let miliseconds = Math.floor(elapsedTime % 1000 / 10);
 
+    hours = String(hours).padStart(2, "0");
+    miniutes = String(miniutes).padStart(2, "0");
+    seconds = String(seconds).padStart(2, "0");
+    miliseconds = String(miliseconds).padStart(2, "0");
+
     display.textContent = `${hours}: ${miniutes}: ${seconds}: ${miliseconds}`;
 
 }

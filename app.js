@@ -17,3 +17,24 @@ function start() {
     }
 
 }
+
+
+function stop() {
+
+
+
+}
+
+
+function reset() {
+
+
+
+}
+
+
+function upload() {
+
+    
+
+}

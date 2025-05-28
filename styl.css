@@ -8,3 +8,11 @@ body {
     height: 95vh;
 
 }
+
+#display {
+
+    font-size: 6.2em;
+    font-weight: bold;
+    font-family: monospace;
+
+}

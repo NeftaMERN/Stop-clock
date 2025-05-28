@@ -21,6 +21,13 @@ function start() {
 
 function stop() {
 
+    if(isRanning){
+
+        clearInterval(timer);
+        elapsedTime = Date.now() - startTime;
+        isRanning = false;
+
+    }
 
 
 }

@@ -35,7 +35,11 @@ function stop() {
 
 function reset() {
 
-
+    clearInterval(timer);
+    let startTime = 0;
+    elapsedTime = 0;
+    isRanning = false;
+    display.textContent = "00:00:00:00"
 
 }
 
